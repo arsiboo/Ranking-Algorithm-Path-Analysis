@@ -52,8 +52,6 @@ _page_rank_global = {}
 _page_rank_local = {}
 
 print(pr)
-option = {'node_color': 'pink', 'node_size': 1600, 'width': 1, 'font_size': 5, 'edge_color': 'gray',
-          'with_labels': True}
 
 for _node1 in nodes_list:
     if _node1 not in _page_rank_global:
