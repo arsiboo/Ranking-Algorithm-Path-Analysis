@@ -1,4 +1,4 @@
-# Combining ranking algorithm with path analysis to identify the local and global most infleuntial vertices in a complex network
+# Using pagerank and social network analysis to specify mental health factors
 
 Paper link: https://www.cambridge.org/core/journals/proceedings-of-the-design-society/article/using-pagerank-and-social-network-analysis-to-specify-mental-health-factors/1212F1FFC3F52FEE95AFDAD262C50DE4
 
