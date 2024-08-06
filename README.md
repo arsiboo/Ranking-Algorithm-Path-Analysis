@@ -1,1 +1,1 @@
-# Rank-Algorithm-Path-Analysis
+# Ranking-Algorithm-Path-Analysis
