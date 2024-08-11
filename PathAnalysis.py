@@ -5,7 +5,7 @@ import pandas as pd
 import xlrd
 import numpy as np  # Import numpy for NaN handling
 
-damping_factor = 0.5
+damping_factor = 0.3
 
 def maxelements(seq):
     max_indices = []
@@ -46,10 +46,12 @@ _total_combinations = 0
 _page_rank_global = {}
 _page_rank_local = {}
 
+# Initialize the dictionaries with NaN values
 for _node1 in nodes_list:
     _page_rank_global[_node1] = {node: np.nan for node in nodes_list}
     _page_rank_local[_node1] = {node: np.nan for node in nodes_list}
 
+# Existing logic to populate matrices with calculated PageRank values
 for _node1 in nodes_list:
     for _node2 in nodes_list:
         if _node1 != _node2:
@@ -105,6 +107,7 @@ for _node1 in nodes_list:
                     print("\tShortest path length: N/A")
                     print("\tLongest path length: N/A")
 
+# Convert dictionaries to DataFrames and save to Excel
 df_local = pd.DataFrame.from_dict(_page_rank_local).sort_index(axis=0).sort_index(axis=1)
 df_local.to_excel("Local.xlsx", engine='xlsxwriter')
 
