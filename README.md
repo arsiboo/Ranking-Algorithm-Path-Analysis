@@ -4,3 +4,6 @@ Paper link: https://www.cambridge.org/core/journals/proceedings-of-the-design-so
 
 Citation: Boodaghian Asl, A., Raghothama, J., Darwich, A., & Meijer, S. (2021). Using pagerank and social network analysis to specify mental health factors. Proceedings of the Design Society, 1, 3379-3388.
 
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+
